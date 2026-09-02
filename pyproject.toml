@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "follow-me-planner"
+version = "0.1.0"
+description = "Reference implementation of global-local planning for an autonomous following shopping robot"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Rong Zhang" }]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

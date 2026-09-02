@@ -1,0 +1,36 @@
+# Project facts and evidence boundary
+
+This file separates documented facts, reconstructed components, and missing evidence.
+
+## Documented facts from the undergraduate project
+
+- Rong Zhang served as project lead and was assigned path-planning development and system integration.
+- The project developed a follow-me shopping-robot prototype and a ROS/Gazebo simulation workflow.
+- The formal final report describes a differential-drive, laser-first implementation using SLAM/localization, global-local planning, and closed-loop chassis control.
+- The final report records 100% dynamic obstacle-avoidance success, a 1.59 m mean following distance, repeat localization errors of X ±0.05 m, Y ±0.10 m, heading ±5°, and path-tracking error below 0.15 m.
+- The same report states that visual perception was not fully integrated and that testing coverage in real retail environments was limited.
+
+## Reconstructed in this repository
+
+- Baseline eight-connected A*.
+- Goal-oriented five-direction pruning.
+- Obstacle-aware heuristic weighting.
+- Collinearity filtering and collision-checked line-of-sight simplification.
+- A compact DWA-style local planner with global-route attraction.
+- Regression tests for path reachability, collision safety, and local-planner output.
+
+The reconstructed code is intended to make the reported planning ideas inspectable. It must not be described as recovered historical source code.
+
+## Missing evidence
+
+- Original ROS workspace and commit history.
+- Original source files for the improved A* and local planner.
+- Launch, costmap, AMCL, SLAM, URDF/Xacro, and RViz configuration files.
+- STM32 firmware and the final chassis communication protocol.
+- ROS bag files, raw test logs, trial count for the 100% success rate, and metric-computation scripts.
+- Original demonstration videos and complete system startup instructions.
+- A consistent final bill of materials across all drafts.
+
+## Known inconsistencies across archived materials
+
+Different drafts mention Hector SLAM versus Cartographer, Jetson Nano versus Jetson Orin NX, and differential-drive versus Ackermann platforms. This repository uses the formal undergraduate final report as the historical baseline and treats the thesis material as an authorized technical reference, not as proof of the undergraduate project's exact hardware.
