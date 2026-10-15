@@ -2,6 +2,8 @@
 
 The current README only uses images whose meaning can be verified from the archived project folder. The following material would make the project substantially stronger.
 
+The proposal-stage RViz screenshot is deliberately excluded. A future replacement must be captured from a fresh virtual-machine or physical-robot run that can be reproduced.
+
 ## Highest priority
 
 1. **A 30–60 second physical follow-me demo** showing start-up, straight following, turning, obstacle avoidance, and resumed following.

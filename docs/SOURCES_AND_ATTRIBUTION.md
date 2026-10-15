@@ -6,6 +6,8 @@ The repository narrative is based on the archived project application, interim r
 
 The project documents establish Rong Zhang's role, project scope, reported performance, limitations, and the historical development timeline.
 
+The RViz mapping screenshot found in the proposal archive was not produced by the project vehicle and is therefore excluded from the public evidence.
+
 ## Authorized technical reference
 
 The planning-method structure was informed by the locally stored document **“张翔毕设260413 - 副本.docx”**, supplied by the user for this task. Relevant concepts include:
