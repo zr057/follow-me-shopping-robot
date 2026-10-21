@@ -4,7 +4,7 @@ All images in this directory were copied from the archived undergraduate innovat
 
 | Repository file | Archived source file | Use |
 |---|---|---|
-| `prototype/final-prototype.png` | `小车原型.png` | Hero image and integrated prototype |
+| `prototype/final-prototype.png` | `小车原型.png` | Early green-cart hardware integration attempt; not the final test platform |
 | `prototype/base-cart.jpg` | `车.jpg` | Cart before integration |
 | `hardware/controller.jpg` | `控制器.jpg` | Onboard controller |
 | `hardware/lidar.jpg` | `摄像头.jpg` | 2D LiDAR; the archived filename was incorrect |

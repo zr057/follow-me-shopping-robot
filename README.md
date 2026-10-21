@@ -5,12 +5,12 @@
 [中文](README_CN.md) · [Project facts](docs/PROJECT_FACTS.md) · [Reproducibility](docs/REPRODUCIBILITY.md) · [Sources](docs/SOURCES_AND_ATTRIBUTION.md)
 
 <p align="center">
-  <img src="assets/prototype/final-prototype.png" width="760" alt="FollowMe shopping-cart prototype">
+  <img src="assets/prototype/final-prototype.png" width="760" alt="Early green-cart integration attempt">
 </p>
 
 ## Results at a glance
 
-The project produced two physical development stages: a modified green shopping cart followed by a four-wheel mobile test platform. The values below are records from the final project report.
+The project had two physical development stages: an unsuccessful green folding-cart conversion followed by a purpose-built four-wheel mobile test platform. The values below are records from the final project report.
 
 | Evaluation item | Reported result |
 |---|---:|
@@ -36,13 +36,13 @@ The project produced two physical development stages: a modified green shopping 
 
 ## Physical prototype and experiments
 
-### From a manual cart to a mobile-robot prototype
+### From an integration attempt to a testable platform
 
-| Base cart | Integrated prototype |
+| Base cart | Early integration attempt |
 |---|---|
-| <img src="assets/prototype/base-cart.jpg" width="420" alt="Original folding cart"> | <img src="assets/prototype/final-prototype.png" width="420" alt="Integrated mobile prototype"> |
+| <img src="assets/prototype/base-cart.jpg" width="420" alt="Original folding cart"> | <img src="assets/prototype/final-prototype.png" width="420" alt="Early green-cart integration attempt"> |
 
-The team converted a folding shopping cart into a differential-drive platform and integrated onboard computation and range sensing for indoor navigation.
+The team first added drive hardware and LiDAR to a folding shopping cart. Its consumer-grade folding structure, limited mounting rigidity, and inconsistent drive response did not support repeatable closed-loop navigation tests, so this conversion remained an integration attempt. The sensing, planning, and control workflow was then transferred to a purpose-built four-wheel mobile platform for experimental validation.
 
 ### Reproducible planning reconstruction
 

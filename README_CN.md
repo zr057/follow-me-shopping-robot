@@ -5,12 +5,12 @@
 [English](README.md) · [项目事实](docs/PROJECT_FACTS.md) · [复现说明](docs/REPRODUCIBILITY.md) · [资料来源](docs/SOURCES_AND_ATTRIBUTION.md)
 
 <p align="center">
-  <img src="assets/prototype/final-prototype.png" width="760" alt="自主跟随购物车最终原型">
+  <img src="assets/prototype/final-prototype.png" width="760" alt="绿色购物车早期集成尝试">
 </p>
 
 ## 项目成果
 
-项目经历了两个实体开发阶段：先改装绿色折叠购物车，之后换用四轮移动平台进行实验。以下数据来自正式结题报告。
+项目经历了两个实体开发阶段：绿色折叠购物车改装未达到稳定运行要求，之后换用专用四轮移动平台进行实验。以下数据来自正式结题报告。
 
 | 实验项目 | 项目记录结果 |
 |---|---:|
@@ -36,13 +36,13 @@
 
 ## 实车与实验
 
-### 从普通购物车到移动机器人原型
+### 从早期集成尝试到可测试平台
 
-| 改造前车体 | 集成后的实验原型 |
+| 改造前车体 | 早期集成尝试 |
 |---|---|
-| <img src="assets/prototype/base-cart.jpg" width="420" alt="改造前折叠购物车"> | <img src="assets/prototype/final-prototype.png" width="420" alt="集成后的购物车原型"> |
+| <img src="assets/prototype/base-cart.jpg" width="420" alt="改造前折叠购物车"> | <img src="assets/prototype/final-prototype.png" width="420" alt="绿色购物车早期集成尝试"> |
 
-团队以折叠式购物车为载体完成差速驱动改造，并集成车载计算平台和距离传感器，为室内自主导航提供硬件基础。
+团队最初在折叠式购物车上安装驱动装置和激光雷达，但生活用折叠结构的刚度、安装稳定性和驱动响应一致性不足，难以支持可重复的闭环导航实验，因此该车仅作为早期集成尝试。之后，团队将感知、规划与控制流程转移到专用四轮机械小车上完成实验验证。
 
 ### 可复现的路径规划重建
 
