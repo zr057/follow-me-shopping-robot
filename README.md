@@ -80,11 +80,7 @@ Traffic cones were placed in an indoor corridor to test planning, trajectory tra
 
 ## System design
 
-<p align="center">
-  <img src="assets/architecture/technical-route.png" width="920" alt="Project technical route">
-</p>
-
-The original proposal roadmap is retained to document intended scope, not as proof that every module reached final integration. The verified planning workflow connects four functional stages:
+The original proposal organized the intended scope around platform integration, autonomous motion, perception and interaction, and experimental validation. It is retained as planning context—not as proof that every proposed module reached final integration. The verified planning workflow connects four functional stages:
 
 1. **Perception:** LiDAR, visual sensing, and odometry acquire environmental and robot-state information.
 2. **Environment representation:** an occupancy grid identifies free and blocked cells for planning.
