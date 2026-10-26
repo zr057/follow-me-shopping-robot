@@ -42,7 +42,7 @@ The project had two physical development stages: an exploratory green folding-ca
 |---|---|
 | <img src="assets/prototype/base-cart.jpg" width="420" alt="Original folding cart"> | <img src="assets/prototype/final-prototype.png" width="420" alt="Early green-cart integration attempt"> |
 
-The team first added drive hardware and LiDAR to a folding shopping cart. Its consumer-grade folding structure, limited mounting rigidity, and inconsistent drive response did not support repeatable closed-loop navigation tests, so this conversion remained an integration attempt. Lessons from that stage informed the completed four-wheel platform used for the final experiments.
+The green cart served as the first physical integration platform for drive hardware, LiDAR, and wiring. Experience from this stage informed the completed four-wheel vehicle used for the final planning, control, and obstacle-avoidance experiments.
 
 ### Final experimental platform
 
