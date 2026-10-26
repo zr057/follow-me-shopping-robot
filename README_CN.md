@@ -10,7 +10,7 @@
 
 ## 项目成果
 
-项目经历了两个实体开发阶段：绿色折叠购物车改装未达到稳定运行要求，之后换用专用四轮移动平台进行实验。以下数据来自正式结题报告。
+项目经历了两个实体开发阶段：先进行绿色折叠购物车的探索性改装，之后完成专用四轮机械平台。以下数据来自正式结题报告。
 
 | 实验项目 | 项目记录结果 |
 |---|---:|
@@ -42,7 +42,19 @@
 |---|---|
 | <img src="assets/prototype/base-cart.jpg" width="420" alt="改造前折叠购物车"> | <img src="assets/prototype/final-prototype.png" width="420" alt="绿色购物车早期集成尝试"> |
 
-团队最初在折叠式购物车上安装驱动装置和激光雷达，但生活用折叠结构的刚度、安装稳定性和驱动响应一致性不足，难以支持可重复的闭环导航实验，因此该车仅作为早期集成尝试。之后，团队将感知、规划与控制流程转移到专用四轮机械小车上完成实验验证。
+团队最初在折叠式购物车上安装驱动装置和激光雷达，但生活用折叠结构的刚度、安装稳定性和驱动响应一致性不足，难以支持可重复的闭环导航实验，因此该车仅作为早期集成尝试。该阶段积累的安装与联调经验随后用于完成最终四轮机械平台。
+
+### 最终实验平台
+
+<p align="center">
+  <img src="assets/prototype/final-mobile-platform.jpg" width="680" alt="配备激光雷达与车载计算设备的最终四轮移动机器人">
+</p>
+
+最终系统采用刚性四轮底盘，集成前置二维激光雷达、车载计算设备以及显示与控制界面，用于完成室内路径执行、轨迹跟踪和避障实验。
+
+| 走廊实验布置 | 静态避障实验 |
+|---|---|
+| <img src="assets/experiments/final-experiment-scene.jpg" width="420" alt="最终机械小车与走廊实验布置"> | <img src="assets/experiments/static-obstacle-avoidance.jpg" width="420" alt="最终机械小车静态避障实验"> |
 
 ### 可复现的路径规划重建
 
@@ -52,7 +64,7 @@
 
 该图由[`scripts/render_planning_demo.py`](scripts/render_planning_demo.py)调用公开的A*重建代码生成，不作为历史实车ROS或RViz运行结果。
 
-### 走廊避障实验
+### 补充走廊实验记录
 
 <p align="center">
   <img src="assets/experiments/corridor-obstacle-test.jpg" width="480" alt="设置锥桶的走廊避障实验">

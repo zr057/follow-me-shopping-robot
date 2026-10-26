@@ -10,7 +10,7 @@ The RViz mapping screenshot found in the proposal archive was not produced by th
 
 ## Authorized technical reference
 
-The planning-method structure was informed by the locally stored document **“张翔毕设260413 - 副本.docx”**, supplied by the user for this task. Relevant concepts include:
+The planning-method structure was informed by the locally stored Zhang Xiang thesis materials supplied by the user for this task. Relevant concepts include:
 
 - Cartographer/AMCL organization for mapping and localization.
 - Goal-oriented A* direction pruning.
@@ -19,7 +19,7 @@ The planning-method structure was informed by the locally stored document **“�
 - Global A* plus DWA local planning.
 - UWB-based dynamic-goal following architecture.
 
-No figure or paragraph from the thesis is copied verbatim into this repository. The diagrams are original Mermaid descriptions and the Python implementation was written anew for transparency. Numerical results from the thesis are not presented as Rong Zhang's project results.
+Three user-authorized photographs from the thesis folder document the confirmed final four-wheel platform, corridor layout, and static obstacle-avoidance test. No thesis diagram or paragraph is copied verbatim. The planning figure and Python implementation were created anew for transparency, and numerical results from the thesis are not presented as Rong Zhang's project results.
 
 ## Third-party archive
 
